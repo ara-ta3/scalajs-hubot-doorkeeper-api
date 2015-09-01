@@ -1,0 +1,24 @@
+{
+  "name": "scalajs-hubot-doorkeeper-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "scalajs-hubot-doorkeeper-api": "main.js"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@my.github.com:ara-ta3/scalajs-hubot-doorkeeper-api.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "node-slack": "0.0.7"
+  }
+}

@@ -3,6 +3,6 @@ enablePlugins(ScalaJSPlugin)
 name := "Doorkeeper API with scalajs"
 
 scalaVersion := "2.11.7"
-libraryDependencies += "net.databinder.dispatch" %% "dispatch-core" % "0.11.2"
 
-scalaJSStage in Global := FastOptStage
+libraryDependencies += "org.scala-js" %%% "scalajs-dom" % "0.8.0"
+postLinkJSEnv := PhantomJSEnv().value
